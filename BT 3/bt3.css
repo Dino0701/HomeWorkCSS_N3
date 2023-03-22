@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image:url(./Vanlytruongthanh.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: #AD6D21;
+}
+h1{
+    color: #FFCC00;
+}
+p{
+    color: white;
+    text-align: start;
+    
+}
+.main{
+    text-align: center;
+}
+
+

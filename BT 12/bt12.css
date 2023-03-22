@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bt12-main{
+
+}
+.bt12-form{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    color: rgb(29, 185, 68);
+}
+.bt12-form>table{
+    background-color: rgb(215, 249, 229);
+    border-style:ridge ;
+
+}
+table{
+    width: 680px;
+    border: 1px solid black;
+}
+th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
+th{
+    color: rgb(62, 147, 76);
+    text-align: start;
+}
+ul{
+    list-style: none;
+}
+ul>li:nth-child(odd){
+    background-color: rgb(26, 26, 145);
+    color: white;
+}
+button{
+    font-weight: bold;
+    width: 72px;
+    line-height: 24px;
+    cursor: pointer;
+}
+button:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+button:active #bt12-submit{
+    display: block;
+}
+
+#bt12-submit{
+    /* display: none; */
+}
+

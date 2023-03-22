@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển</title>
+    <link rel="stylesheet" href="./bt12.css">
+</head>
+<body>
+    <div class="bt12-main">
+        <div>
+            <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        </div>
+        <div>
+            <form class="bt12-form">
+                <table>
+                    <tr>
+                        <th>
+                            Họ và tên
+                        </th>
+                        <td>
+                            <input value="Nguyễn Ngọc Quỳnh Nga" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Địa chỉ
+                        </th>
+                        <td>
+                            <input value="2Bia Hùng Vương, Q10" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Điện thoại
+                        </th>
+                        <td>
+                            <input value="0909097506" type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Giới tính
+                        </th>
+                        <td>
+                            <form>
+                                <input name="gender" type="radio" value="Nam" />Nam
+                                <input name="gender" type="radio" value="Nữ" />Nữ
+                                <input name="gender" type="radio" value="Khác" />Khác
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Nghề nghiệp
+                        </th>
+                        <td>
+                            <select>
+                                <option value="text">Bác sĩ</option>
+                                <option value="text">Kỹ sư</option>
+                                <option value="text">Giáo viên</option>
+                                <option value="text">Khác...</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Chọn sản phẩm tham gia
+                        </th>
+                        <td>
+                            <ul>
+                                <li>Kem đánh răng</li>
+                                <li>Bột giặt</li>
+                                <li>Dầu gội đầu</li>
+                                <li>Sữa tắm</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Số người dự đoán tham gia
+                        </th>
+                        <td>
+                            <input value="250 000" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="bt12-button" style="text-align: center" colspan="2">
+                            <button>Đồng ý</button>
+                        </td>
+                    </tr>
+                    <tr id="bt12-submit">
+                        <td style="color: red; text-align: center" colspan="2">
+                            Bạn đã đăng ký thành công!!!
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+   
+</body>
+</html>

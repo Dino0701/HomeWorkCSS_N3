@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.addinline{
+   
+}
+.monhoc{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.pred{
+    color: red;
+}
+.vonglapfor{
+    color: #0000CC;
+    background-color: #CCCCCC;
+    position: relative;
+}
+.vlf1,.vlf3{
+    position: absolute;
+    left: 40%;
+}
+.vlf2{
+    position: absolute;
+    left: 60%;
+}

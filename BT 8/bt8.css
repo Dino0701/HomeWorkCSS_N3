@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./menu-background.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    color: orange;
+    margin: 20px 0 10px 65px;
+}
+.main-in4{
+    margin-top: 200px;
+    margin-left: 80px;
+}
+table{
+    border: 2px solid black ;
+    width: 440px;
+}
+.main-column{
+    background-color: orange;
+    color: white;
+    font-weight: ;
+}
+th{
+    border: 1px solid black;
+}
+.table-menu tr:nth-child(even) {
+background-color: white ;
+color: black;
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 16px;
+}
+.title{
+    color:coral ;
+    border-style: double;
+    border-width: 5px solid coral;
+    text-align: center;
+    
+}
+.chuto{
+    color: brown;
+    font-size: 50px;
+    font-weight:800;
+}
+.indam{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.doanthu2{
+    color: white;
+    background-color: coral;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+.chured{
+    color:crimson;
+    font-weight: bold;
+}
+.toyellow{
+    font-style: oblique;
+    background-color: goldenrod;
+}
+.dongcuoi{
+    padding: 0 0  0 20px;
+}

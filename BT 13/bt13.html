@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển</title>
+    <link rel="stylesheet" href="./bt13.css">
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Đăng ký du lịch</h1>
+        </div>
+        <form action="">
+            <div class="bt13-table">
+                <table>
+                    <tr>
+                        <th>
+                            Họ và tên
+                        </th>
+                        <td>
+                            <input class="chieudaikhung" value="Phạm Ngọc Cẩm Đào" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Địa chỉ
+                        </th>
+                        <td>
+                            <input class="chieudaikhung" value="227 Nguyễn Văn Cừ" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Điện thoại
+                        </th>
+                        <td>
+                            <input class="chieudaikhung" value="8351056" type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Khách Việt Nam
+                        </th>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Chọn tour
+                        </th>
+                        <td>
+                            <select name="" id="">
+                                <optgroup label="Miền Bắc">
+                                    <option value="text">Hà Nội - Hạ Long - Sapa</option>
+                                    <option value="text">Hà Nội - Chùa Hương - Ninh Bình</option>
+                                    <option value="text">Hà Nội - Cát Bà - Tuần Châu</option>
+                                </optgroup>
+    
+                                <optgroup label="Miền Trung">
+                                    <option value="text">Huế - Bạch Mã - Đà Nẵng</option>
+                                    <option value="text">Nha Trang - Đà Lạt</option>
+                                    <option value="text">Buôn Mê Thuột - Gia Lai - KonTum</option>
+                                </optgroup>
+    
+                                <optgroup label="Miền Nam">
+                                    <option value="text">TP.HCM - Cần Thơ - Cà Mau</option>
+                                    <option value="text">TP.HCM - Mỹ Tho</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Phương tiện
+                        </th>
+                        <td>
+                            <input type="radio" name="cars" value="Máy bay" /> Máy bay 
+                            <input type="radio" name="cars" value="Xe Ô tô" /> Xe Ô tô 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <div class="bt12-custom-box">
+                                <div class="custom-box">
+                                    <span class="custom-box-name">
+                                        <p>Số lượng đoàn khách</p>
+                                    </span>
+                                    <div class="custom-box-main">
+                                        <form>
+                                            <label for="adult">Người lớn </label>
+                                            <input type="number" value="6" id="adult">
+                                            <label for="child">Trẻ em </label>
+                                            <input type="number" value="4" id="child">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Ghi chú thêm</th>
+                        <td>
+                            <textarea style="width: 280px ;" rows="2" cols="0">Có 2 trẻ em dưới 6 tuổi, Có 2 người lớn ăn chay.
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="bt13-button" style="text-align: center" colspan="2">
+                            <button>Đồng ý</button>
+                        </td>
+                    </tr>
+                    <tr id="bt13-submit">
+                        <td style="color: red; text-align: center" colspan="2">
+                            Bạn đã đăng ký thành công!!!
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

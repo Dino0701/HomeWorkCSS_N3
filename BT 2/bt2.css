@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    color: green;
+}
+h3{
+    color: blue;
+    text-decoration: underline;
+}
+.me{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: #FF3399;
+    background-color: #FECFFD;
+}
+.mainme{
+    background-color: #FFFFCC;
+    text-align: center;
+    font-style:italic ;
+}
+p.first{
+    color: blue;
+    display: inline-block;
+    border-bottom:2px solid black;
+}
+p.second{
+    color:red ;
+    display: inline-block;
+    border-bottom:2px solid black;
+}
+p.third{
+    color: #006600;
+    
+}
